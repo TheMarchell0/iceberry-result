@@ -1,0 +1,1 @@
+{"version":3,"file":"pages\\index.js","mappings":";;;;;AAAAA,OAAO,CAACC,GAAG,CAAC,wBAAwB,CAAC,C","sources":["webpack://Iceberry Project/./src/js/pages/index.js"],"sourcesContent":["console.log('TEST GLAVNAYA STRANICA');"],"names":["console","log"],"sourceRoot":""}

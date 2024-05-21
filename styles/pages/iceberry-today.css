@@ -1,0 +1,49 @@
+.hero {
+  background: url("/img/iceberry-today-hero-bg.svg") no-repeat center;
+  background-size: cover;
+  color: #E31A4D;
+}
+
+.hero__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.hero__info {
+  font-family: "Intro Bold";
+  font-weight: 700;
+}
+
+.hero__info-subtitle,
+.hero__info-descr {
+  font-size: 29px;
+  line-height: 32px;
+  color: #E31A4D;
+}
+
+.hero__info-title {
+  font-size: 126px;
+  line-height: 126px;
+  text-transform: uppercase;
+}
+
+.history {
+  background: url("/img/iceberry-today-history-bg.png") no-repeat center;
+  background-size: cover;
+}
+
+.icon-info {
+  background-color: #FFF2DE;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .history {
+    background: url("/img/iceberry-today-history-bg@2x.png") no-repeat center;
+    background-size: cover;
+  }
+}
+/*# sourceMappingURL=../maps/pages/iceberry-today.css.map */
