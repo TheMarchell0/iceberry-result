@@ -10,9 +10,11 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/main.min.css">
+    <link rel="stylesheet" href="styles/swiper-bundle.css">
+    <link rel="stylesheet" href="styles/pages/brands.min.css">
 </head>
 <body>
-<header class="header">
+<header class="header js-header">
     <div class="container header__container">
         <div class="header__img-wrapper">
             <a href="/">
@@ -35,7 +37,462 @@
     </div>
 </header>
 <main>
-    <h1>Бренды</h1>
+    <section class="hero js-slider-parent">
+        <div class="hero__swiper swiper js-hero-slider">
+            <ul class="hero__list swiper-wrapper">
+                <li data-theme="vologodskiy-plombir"
+                    class="hero__list-item swiper-slide hero__list-item_vologodskiy-plombir js-brands-slide">
+                    <div class="hero__list-item-wrapper">
+                        <picture>
+                            <source
+                                    srcset="./img/brands-hero-slider-img-1.png 1x, ./img/brands-hero-slider-img-1@2x.png 2x"
+                            />
+                            <img
+                                    src="./img/brands-hero-slider-img-1.png"
+                                    alt="Декоративная картинка"
+                                    width="695"
+                                    class="hero__list-img"
+                            />
+                        </picture>
+                        <div class="hero__list-info">
+                            <p class="hero__list-info-title">Вологодский пломбир</p>
+                            <p class="hero__list-info-descr">Абсолютно натурален!</p>
+                        </div>
+                    </div>
+                </li>
+                <li data-theme="filevskoe"
+                    class="hero__list-item swiper-slide hero__list-item_filevskoe js-brands-slide">
+                    <div class="hero__list-item-wrapper">
+                        <picture>
+                            <source
+                                    srcset="./img/brands-hero-slider-img-2.png 1x, ./img/brands-hero-slider-img-2@2x.png 2x"
+                            />
+                            <img
+                                    src="./img/brands-hero-slider-img-2.png"
+                                    alt="Декоративная картинка"
+                                    width="600"
+                                    class="hero__list-img"
+                            />
+                        </picture>
+                        <div class="hero__list-info">
+                            <p class="hero__list-info-title">Филевское</p>
+                            <p class="hero__list-info-descr">По историческим рецептурам!</p>
+                        </div>
+                    </div>
+                </li>
+                <li data-theme="jemchujina-rossii"
+                    class="hero__list-item swiper-slide hero__list-item_jemchujina-rossii js-brands-slide">
+                    <div class="hero__list-item-wrapper">
+                        <picture>
+                            <source
+                                    srcset="./img/brands-hero-slider-img-3.png 1x, ./img/brands-hero-slider-img-3@2x.png 2x"
+                            />
+                            <img
+                                    src="./img/brands-hero-slider-img-3.png"
+                                    alt="Декоративная картинка"
+                                    width="999"
+                                    class="hero__list-img"
+                            />
+                        </picture>
+                        <div class="hero__list-info">
+                            <p class="hero__list-info-title">Жемчужина России</p>
+                            <p class="hero__list-info-descr">Роскошный вкус<br/>для настоящих гурманов!</p>
+                        </div>
+                    </div>
+                </li>
+                <li data-theme="ot-deda-moroza"
+                    class="hero__list-item swiper-slide hero__list-item_ot-deda-moroza js-brands-slide">
+                    <div class="hero__list-item-wrapper">
+                        <picture>
+                            <source
+                                    srcset="./img/brands-hero-slider-img-4.png 1x, ./img/brands-hero-slider-img-4@2x.png 2x"
+                            />
+                            <img
+                                    src="./img/brands-hero-slider-img-4.png"
+                                    alt="Декоративная картинка"
+                                    width="800"
+                                    class="hero__list-img"
+                            />
+                        </picture>
+                        <div class="hero__list-info">
+                            <p class="hero__list-info-title">От Деда Мороза</p>
+                            <p class="hero__list-info-descr">Невероятно красочное, вкусное и&nbsp;недорогое
+                                мороженое!</p>
+                        </div>
+                    </div>
+                </li>
+                <li data-theme="vkuslandia"
+                    class="hero__list-item swiper-slide hero__list-item_vkuslandia js-brands-slide">
+                    <div class="hero__list-item-wrapper">
+                        <picture>
+                            <source
+                                    srcset="./img/brands-hero-slider-img-5.png 1x, ./img/brands-hero-slider-img-5@2x.png 2x"
+                            />
+                            <img
+                                    src="./img/brands-hero-slider-img-5.png"
+                                    alt="Декоративная картинка"
+                                    width="732"
+                                    class="hero__list-img"
+                            />
+                        </picture>
+                        <div class="hero__list-info">
+                            <p class="hero__list-info-title">Вкусландия</p>
+                            <p class="hero__list-info-descr">Идеальное сочетание вкусов<br/>по мотивам знаменитых
+                                десертов!
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="hero__pagination swiper-pagination js-hero-pagination"></div>
+            <div class="hero__container container">
+                <picture>
+                    <source
+                            srcset="./img/brands-hero-decor.png 1x, ./img/brands-hero-decor@2x.png 2x"
+                    />
+                    <img
+                            src="./img/brands-hero-decor.png"
+                            alt="Декоративная картинка"
+                            width="285"
+                            class="hero__decor"
+                    />
+                </picture>
+            </div>
+        </div>
+    </section>
+    <section class="brands">
+        <div class="brands__container container">
+            <h1 class="brands__title section-title">Наши бренды</h1>
+            <div class="brands__swiper swiper js-brands-slider swiper-overflow-hidden">
+                <ul class="brands__list swiper-wrapper">
+                    <li class="brands__list-item swiper-slide">
+                        <picture>
+                            <source
+                                    srcset="./img/brands-main-logo-1.png 1x, ./img/brands-main-logo-1@2x.png 2x"
+                            />
+                            <img
+                                    src="./img/brands-main-logo-1.png"
+                                    alt="Декоративная картинка"
+                                    width="190"
+                                    class="brands__list-img"
+                            />
+                        </picture>
+                        <p class="brands__list-text">Филевское</p>
+                    </li>
+                    <li class="brands__list-item swiper-slide">
+                        <picture>
+                            <source
+                                    srcset="./img/brands-main-logo-2.png 1x, ./img/brands-main-logo-2@2x.png 2x"
+                            />
+                            <img
+                                    src="./img/brands-main-logo-2.png"
+                                    alt="Декоративная картинка"
+                                    width="190"
+                                    class="brands__list-img"
+                            />
+                        </picture>
+                        <p class="brands__list-text">Вологодский пломбир</p>
+                    </li>
+                    <li class="brands__list-item swiper-slide">
+                        <picture>
+                            <source
+                                    srcset="./img/brands-main-logo-3.png 1x, ./img/brands-main-logo-3@2x.png 2x"
+                            />
+                            <img
+                                    src="./img/brands-main-logo-3.png"
+                                    alt="Декоративная картинка"
+                                    width="190"
+                                    class="brands__list-img"
+                            />
+                        </picture>
+                        <p class="brands__list-text">Жемчужина России</p>
+                    </li>
+                    <li class="brands__list-item swiper-slide">
+                        <picture>
+                            <source
+                                    srcset="./img/brands-main-logo-4.png 1x, ./img/brands-main-logo-4@2x.png 2x"
+                            />
+                            <img
+                                    src="./img/brands-main-logo-4.png"
+                                    alt="Декоративная картинка"
+                                    width="190"
+                                    class="brands__list-img"
+                            />
+                        </picture>
+                        <p class="brands__list-text">Мороженое от&nbsp;Деда Мороза</p>
+                    </li>
+                    <li class="brands__list-item swiper-slide">
+                        <picture>
+                            <source
+                                    srcset="./img/brands-main-logo-5.png 1x, ./img/brands-main-logo-5@2x.png 2x"
+                            />
+                            <img
+                                    src="./img/brands-main-logo-5.png"
+                                    alt="Декоративная картинка"
+                                    width="190"
+                                    class="brands__list-img"
+                            />
+                        </picture>
+                        <p class="brands__list-text">Вкусландия</p>
+                    </li>
+                    <li class="brands__list-item swiper-slide">
+                        <picture>
+                            <source
+                                    srcset="./img/brands-main-logo-6.png 1x, ./img/brands-main-logo-6@2x.png 2x"
+                            />
+                            <img
+                                    src="./img/brands-main-logo-6.png"
+                                    alt="Декоративная картинка"
+                                    width="190"
+                                    class="brands__list-img"
+                            />
+                        </picture>
+                        <p class="brands__list-text">Ярославское мороженное</p>
+                    </li>
+                    <li class="brands__list-item swiper-slide">
+                        <picture>
+                            <source
+                                    srcset="./img/brands-main-logo-7.png 1x, ./img/brands-main-logo-7@2x.png 2x"
+                            />
+                            <img
+                                    src="./img/brands-main-logo-7.png"
+                                    alt="Декоративная картинка"
+                                    width="190"
+                                    class="brands__list-img"
+                            />
+                        </picture>
+                        <p class="brands__list-text">Инстинкт</p>
+                    </li>
+                    <li class="brands__list-item swiper-slide">
+                        <picture>
+                            <source
+                                    srcset="./img/brands-main-logo-8.png 1x, ./img/brands-main-logo-8@2x.png 2x"
+                            />
+                            <img
+                                    src="./img/brands-main-logo-8.png"
+                                    alt="Декоративная картинка"
+                                    width="190"
+                                    class="brands__list-img"
+                            />
+                        </picture>
+                        <p class="brands__list-text">Семейное</p>
+                    </li>
+                    <li class="brands__list-item swiper-slide">
+                        <picture>
+                            <source
+                                    srcset="./img/brands-main-logo-9.png 1x, ./img/brands-main-logo-9@2x.png 2x"
+                            />
+                            <img
+                                    src="./img/brands-main-logo-9.png"
+                                    alt="Декоративная картинка"
+                                    width="190"
+                                    class="brands__list-img"
+                            />
+                        </picture>
+                        <p class="brands__list-text">100% вкус</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="brands__slider-arrows slider-arrows">
+                <div class="brands__slider-prev swiper-button-prev"></div>
+                <div class="brands__slider-next swiper-button-next"></div>
+            </div>
+        </div>
+    </section>
+    <section class="brands-descr">
+        <div class="brands-descr__container container">
+            <div class="brands-descr__swiper swiper js-brands-descr-slider">
+                <ul class="brands-descr__list swiper-wrapper">
+                    <li class="brands-descr__list-item brands-descr__list-item_filevskoe filevskoe-bg swiper-slide">
+                        <a class="absolute-link" href="/brands/filevskoe.html"></a>
+                        <div class="brands-descr__list-content">
+                            <picture>
+                                <source
+                                        srcset="./img/brands-descr-logo-1.png 1x, ./img/brands-descr-logo-1@2x.png 2x"
+                                />
+                                <img
+                                        src="./img/brands-descr-logo-1.png"
+                                        alt="Декоративная картинка"
+                                        width="137"
+                                        class="brands-descr__list-img"
+                                />
+                            </picture>
+                            <h2 class="brands-descr__list-title filevskoe-text">Филевское</h2>
+                            <p class="brands-descr__list-subtitle filevskoe-text">Один из старейших брендов мороженого.
+                                Мороженое этой торговой
+                                марки производится по&nbsp;историческим рецептурам, строго по ГОСТу и&nbsp;на&nbsp;основе
+                                натуральных
+                                ингредиентов: свежее молоко, сливочное масло и сгущенное молоко.</p>
+                            <button class="brands-descr__list-button button">Перейти</button>
+                        </div>
+                        <picture>
+                            <source
+                                    srcset="./img/brands-list-decor-1.png 1x, ./img/brands-list-decor-1@2x.png 2x"
+                            />
+                            <img
+                                    src="./img/brands-list-decor-1.png"
+                                    alt="Декоративная картинка"
+                                    width="231"
+                                    class="brands-descr__list-decor"
+                            />
+                        </picture>
+                    </li>
+                    <li class="brands-descr__list-item brands-descr__list-item_vologodskiy-plombir vologodskiy-plombir-bg swiper-slide">
+                        <a class="absolute-link" href="/brands/vologodskiy-plombir.html"></a>
+                        <div class="brands-descr__list-content">
+                            <picture>
+                                <source
+                                        srcset="./img/brands-descr-logo-2.png 1x, ./img/brands-descr-logo-2@2x.png 2x"
+                                />
+                                <img
+                                        src="./img/brands-descr-logo-2.png"
+                                        alt="Декоративная картинка"
+                                        width="81"
+                                        class="brands-descr__list-img"
+                                />
+                            </picture>
+                            <h2 class="brands-descr__list-title">Вологодский пломбир</h2>
+                            <p class="brands-descr__list-subtitle">Настоящий вологодский продукт, произведенный в&nbsp;Вологде,
+                                в регионе с легендарными традициями производства молочной продукции. Насыщенный пломбир
+                                высокой жирности имеет особенный ярко выраженный вкус молока, который получен благодаря
+                                использованию в рецептуре настоящего вологодского сливочного масла и&nbsp;свежего
+                                молока.
+                                Вологодский пломбир абсолютно натурален!</p>
+                            <button class="brands-descr__list-button button">Перейти</button>
+                        </div>
+                        <picture>
+                            <source
+                                    srcset="./img/brands-list-decor-2.png 1x, ./img/brands-list-decor-2@2x.png 2x"
+                            />
+                            <img
+                                    src="./img/brands-list-decor-2.png"
+                                    alt="Декоративная картинка"
+                                    width="149"
+                                    class="brands-descr__list-decor"
+                            />
+                        </picture>
+                    </li>
+                    <li class="brands-descr__list-item brands-descr__list-item_jemchujina-rossii jemchujina-rossii-bg swiper-slide">
+                        <a class="absolute-link" href="/brands/jemchujina-rossii.html"></a>
+                        <div class="brands-descr__list-content">
+                            <picture>
+                                <source
+                                        srcset="./img/brands-descr-logo-3.png 1x, ./img/brands-descr-logo-3@2x.png 2x"
+                                />
+                                <img
+                                        src="./img/brands-descr-logo-3.png"
+                                        alt="Декоративная картинка"
+                                        width="180"
+                                        class="brands-descr__list-img"
+                                />
+                            </picture>
+                            <h2 class="brands-descr__list-title">Жемчужина России</h2>
+                            <p class="brands-descr__list-subtitle">Настоящая «жемчужина» натурального мороженого,
+                                созданная
+                                специально для&nbsp;настоящих ценителей этого десерта. Все&nbsp;мороженое этого бренда
+                                производится по ГОСТу: из свежего молока, сливочного масла, с отборными орехами и&nbsp;специально&nbsp;разработанной
+                                молочно- шоколадной глазурью. Роскошный вкус&nbsp;для настоящих гурманов!</p>
+                            <button class="brands-descr__list-button button">Перейти</button>
+                        </div>
+                        <picture>
+                            <source
+                                    srcset="./img/brands-list-decor-3.png 1x, ./img/brands-list-decor-3@2x.png 2x"
+                            />
+                            <img
+                                    src="./img/brands-list-decor-3.png"
+                                    alt="Декоративная картинка"
+                                    width="243"
+                                    class="brands-descr__list-decor"
+                            />
+                        </picture>
+                    </li>
+                    <li class="brands-descr__list-item brands-descr__list-item_ot-deda-moroza ot-deda-moroza-bg swiper-slide">
+                        <a class="absolute-link" href="/brands/ot-deda-moroza.html"></a>
+                        <div class="brands-descr__list-content">
+                            <picture>
+                                <source
+                                        srcset="./img/brands-descr-logo-4.png 1x, ./img/brands-descr-logo-4@2x.png 2x"
+                                />
+                                <img
+                                        src="./img/brands-descr-logo-4.png"
+                                        alt="Декоративная картинка"
+                                        width="60"
+                                        class="brands-descr__list-img"
+                                />
+                            </picture>
+                            <h2 class="brands-descr__list-title">От Деда Мороза</h2>
+                            <p class="brands-descr__list-subtitle">Невероятно вкусное и недорогое мороженое, которое
+                                получается благодаря высокотехнологичному и масштабному производству в&nbsp;сочетании с
+                                высококачественным сырьем и многолетними традициями качества. </p>
+                            <button class="brands-descr__list-button button">Перейти</button>
+                        </div>
+                        <picture>
+                            <source
+                                    srcset="./img/brands-list-decor-4.png 1x, ./img/brands-list-decor-4@2x.png 2x"
+                            />
+                            <img
+                                    src="./img/brands-list-decor-4.png"
+                                    alt="Декоративная картинка"
+                                    width="239"
+                                    class="brands-descr__list-decor"
+                            />
+                        </picture>
+                    </li>
+                    <li class="brands-descr__list-item brands-descr__list-item_vkuslandia vkuslandia-bg swiper-slide">
+                        <a class="absolute-link" href="/brands/vkuslandia.html"></a>
+                        <div class="brands-descr__list-content">
+                            <picture>
+                                <source
+                                        srcset="./img/brands-descr-logo-5.png 1x, ./img/brands-descr-logo-5@2x.png 2x"
+                                />
+                                <img
+                                        src="./img/brands-descr-logo-5.png"
+                                        alt="Декоративная картинка"
+                                        width="137"
+                                        class="brands-descr__list-img"
+                                />
+                            </picture>
+                            <h2 class="brands-descr__list-title vkuslandia-text">Вкусландия</h2>
+                            <p class="brands-descr__list-subtitle vkuslandia-text">Мороженое бренда Вкусландия - это
+                                специально разработанная линейка сложных вкусов по&nbsp;мотивам самых знаменитых
+                                десертов,
+                                выпущенная в лотках семейного формата.</p>
+                            <p class="brands-descr__list-subtitle vkuslandia-text">Безупречно подобранное сочетание
+                                натурального пломбира с изысканными ингредиентами не оставит равнодушным всех ценителей
+                                идеального вкуса.</p>
+                            <button class="brands-descr__list-button button">Перейти</button>
+                        </div>
+                        <picture>
+                            <source
+                                    srcset="./img/brands-list-decor-5.png 1x, ./img/brands-list-decor-5@2x.png 2x"
+                            />
+                            <img
+                                    src="./img/brands-list-decor-5.png"
+                                    alt="Декоративная картинка"
+                                    width="246"
+                                    class="brands-descr__list-decor"
+                            />
+                        </picture>
+                    </li>
+                </ul>
+            </div>
+            <div class="brands-descr__slider-arrows slider-arrows slider-arrows_mobile">
+                <div class="brands-descr__slider-prev swiper-button-prev"></div>
+                <div class="brands-descr__slider-next swiper-button-next"></div>
+            </div>
+            <picture>
+                <source
+                        srcset="./img/brands-descr-decor.png 1x, ./img/brands-descr-decor@2x.png 2x"
+                />
+                <img
+                        src="./img/brands-descr-decor.png"
+                        alt="Декоративная картинка"
+                        width="503"
+                        class="brands-descr__decor"
+                />
+            </picture>
+        </div>
+    </section>
 </main>
 <footer class="footer">
     <div class="footer__container container">
@@ -76,6 +533,8 @@
         </div>
     </div>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="js/main.min.js"></script>
+<script src="js/pages/brands.min.js"></script>
 </body>
 </html>
