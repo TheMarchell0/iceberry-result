@@ -8,15 +8,18 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="styles/main.min.css">
+    <link rel="shortcut icon" href="/img/favicons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/styles/main.min.css">
+    <link rel="stylesheet" href="/styles/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/styles/brands-general-styles.min.css">
+    <link rel="stylesheet" href="/styles/pages/brands-single.min.css">
 </head>
-<body>
+<body class="brand-single" data-brand-theme="vologodskiy-plombir">
 <header class="header js-header">
     <div class="container header__container">
         <div class="header__img-wrapper">
             <a href="/">
-                <img src="./img/main-logo.svg" alt="Логотип">
+                <img src="/img/main-logo.svg" alt="Логотип">
             </a>
         </div>
         <div class="header__mobile-menu-button-wrapper js-trigger-mobile-menu">
@@ -35,13 +38,268 @@
     </div>
 </header>
 <main>
-    <h1>тест</h1>
+    <section class="hero">
+        <div class="hero__brand brand brand_vologodskiy-plombir">
+            <div class="hero__brand-wrapper brand__wrapper">
+                <picture>
+                    <source
+                            srcset="/img/vologodskiy-plombir-main-img.png 1x, /img/vologodskiy-plombir-main-img@2x.png 2x"
+                    />
+                    <img
+                            src="/img/vologodskiy-plombir-main-img.png"
+                            alt="Декоративная картинка"
+                            width="581"
+                            class="hero__brand-img brand__img"
+                    />
+                </picture>
+                <div class="hero__brand-text brand__text">
+                    <h1 class="hero__brand-text-title brand__text-title">Вологодский пломбир</h1>
+                    <p class="hero__brand-text-descr brand__text-descr">Абсолютно натурален</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="info">
+        <div class="info__container container">
+            <div class="info__content">
+                <p class="info__content-title">Вологодский пломбир</p>
+                <p class="info__content-descr">Настоящий вологодский продукт, произведенный в&nbsp;Вологде, в регионе с
+                    легендарными традициями производства молочной продукции.<br/>Насыщенный пломбир высокой жирности
+                    имеет особенный ярко выраженный вкус молока, который получен благодаря использованию в рецептуре
+                    настоящего вологодского сливочного масла и свежего молока. Вологодский пломбир абсолютно натурален!
+                </p>
+                <ul class="info__content-list">
+                    <li class="info__content-list-item">
+                        <picture>
+                            <source
+                                    srcset="/img/brand-info-vologodskiy-plombir-award-1.png 1x, /img/brand-info-vologodskiy-plombir-award-1@2x.png 2x"
+                            />
+                            <img
+                                    src="/img/brand-info-vologodskiy-plombir-award-1.png"
+                                    alt="Декоративная картинка"
+                                    width="61"
+                                    class="info__content-list-img"
+                            />
+                        </picture>
+                    </li>
+                    <li class="info__content-list-item">
+                        <picture>
+                            <source
+                                    srcset="/img/brand-info-vologodskiy-plombir-award-2.png 1x, /img/brand-info-vologodskiy-plombir-award-2@2x.png 2x"
+                            />
+                            <img
+                                    src="/img/brand-info-vologodskiy-plombir-award-2.png"
+                                    alt="Декоративная картинка"
+                                    width="61"
+                                    class="info__content-list-img"
+                            />
+                        </picture>
+                    </li>
+                    <li class="info__content-list-item">
+                        <picture>
+                            <source
+                                    srcset="/img/brand-info-vologodskiy-plombir-award-3.png 1x, /img/brand-info-vologodskiy-plombir-award-3@2x.png 2x"
+                            />
+                            <img
+                                    src="/img/brand-info-vologodskiy-plombir-award-3.png"
+                                    alt="Декоративная картинка"
+                                    width="61"
+                                    class="info__content-list-img"
+                            />
+                        </picture>
+                    </li>
+                    <li class="info__content-list-item">
+                        <picture>
+                            <source
+                                    srcset="/img/brand-info-vologodskiy-plombir-award-4.png 1x, /img/brand-info-vologodskiy-plombir-award-4@2x.png 2x"
+                            />
+                            <img
+                                    src="/img/brand-info-vologodskiy-plombir-award-4.png"
+                                    alt="Декоративная картинка"
+                                    width="61"
+                                    class="info__content-list-img"
+                            />
+                        </picture>
+                    </li>
+                    <li class="info__content-list-item">
+                        <picture>
+                            <source
+                                    srcset="/img/brand-info-vologodskiy-plombir-award-5.png 1x, /img/brand-info-vologodskiy-plombir-award-5@2x.png 2x"
+                            />
+                            <img
+                                    src="/img/brand-info-vologodskiy-plombir-award-5.png"
+                                    alt="Декоративная картинка"
+                                    width="61"
+                                    class="info__content-list-img"
+                            />
+                        </picture>
+                    </li>
+                    <li class="info__content-list-item">
+                        <picture>
+                            <source
+                                    srcset="/img/brand-info-vologodskiy-plombir-award-6.png 1x, /img/brand-info-vologodskiy-plombir-award-6@2x.png 2x"
+                            />
+                            <img
+                                    src="/img/brand-info-vologodskiy-plombir-award-6.png"
+                                    alt="Декоративная картинка"
+                                    width="61"
+                                    class="info__content-list-img"
+                            />
+                        </picture>
+                    </li>
+                    <li class="info__content-list-item">
+                        <picture>
+                            <source
+                                    srcset="/img/brand-info-vologodskiy-plombir-award-7.png 1x, /img/brand-info-vologodskiy-plombir-award-7@2x.png 2x"
+                            />
+                            <img
+                                    src="/img/brand-info-vologodskiy-plombir-award-7.png"
+                                    alt="Декоративная картинка"
+                                    width="61"
+                                    class="info__content-list-img"
+                            />
+                        </picture>
+                    </li>
+                </ul>
+                <picture>
+                    <source
+                            srcset="/img/brand-info-content-decor_vologodskiy-plombir.png 1x, /img/brand-info-content-decor_vologodskiy-plombir@2x.png 2x"
+                    />
+                    <img
+                            src="/img/brand-info-content-decor_vologodskiy-plombir.png"
+                            alt="Декоративная картинка"
+                            width="507"
+                            class="info__content-decor info__content-decor_vologodskiy-plombir"
+                    />
+                </picture>
+            </div>
+        </div>
+    </section>
+    <section class="assortment">
+        <div class="assortment__container container">
+            <h2 class="assortment__title section-title">Ассортимент</h2>
+            <div class="assortment__swiper swiper js-assortment-slider">
+                <ul class="assortment__list swiper-wrapper">
+                    <li class="assortment__list-item swiper-slide">
+                        <p class="assortment__list-title">Вафельный стаканчик</p>
+                        <p class="assortment__list-descr">5 видов</p>
+                        <picture>
+                            <source
+                                    srcset="/img/brands-assortment-1_vologodskiy-plombir.png 1x, /img/brands-assortment-1_vologodskiy-plombir@2x.png 2x"
+                            />
+                            <img
+                                    src="/img/brands-assortment-1_vologodskiy-plombir.png"
+                                    alt="Декоративная картинка"
+                                    class="assortment__list-item-bg"
+                            />
+                        </picture>
+                    </li>
+                    <li class="assortment__list-item swiper-slide">
+                        <p class="assortment__list-title">Эскимо</p>
+                        <p class="assortment__list-descr">5 видов</p>
+                        <picture>
+                            <source
+                                    srcset="/img/brands-assortment-2_vologodskiy-plombir.png 1x, /img/brands-assortment-2_vologodskiy-plombir@2x.png 2x"
+                            />
+                            <img
+                                    src="/img/brands-assortment-2_vologodskiy-plombir.png"
+                                    alt="Декоративная картинка"
+                                    class="assortment__list-item-bg"
+                            />
+                        </picture>
+                    </li>
+                    <li class="assortment__list-item swiper-slide">
+                        <p class="assortment__list-title">Рожок</p>
+                        <p class="assortment__list-descr">2 вида</p>
+                        <picture>
+                            <source
+                                    srcset="/img/brands-assortment-3_vologodskiy-plombir.png 1x, /img/brands-assortment-3_vologodskiy-plombir@2x.png 2x"
+                            />
+                            <img
+                                    src="/img/brands-assortment-3_vologodskiy-plombir.png"
+                                    alt="Декоративная картинка"
+                                    class="assortment__list-item-bg"
+                            />
+                        </picture>
+                    </li>
+                    <li class="assortment__list-item swiper-slide">
+                        <p class="assortment__list-title">Брикет на&nbsp;вафлях</p>
+                        <p class="assortment__list-descr">1 вид</p>
+                        <picture>
+                            <source
+                                    srcset="/img/brands-assortment-4_vologodskiy-plombir.png 1x, /img/brands-assortment-4_vologodskiy-plombir@2x.png 2x"
+                            />
+                            <img
+                                    src="/img/brands-assortment-4_vologodskiy-plombir.png"
+                                    alt="Декоративная картинка"
+                                    class="assortment__list-item-bg"
+                            />
+                        </picture>
+                    </li>
+                    <li class="assortment__list-item swiper-slide">
+                        <p class="assortment__list-title">Брикет</p>
+                        <p class="assortment__list-descr">5 видов</p>
+                        <picture>
+                            <source
+                                    srcset="/img/brands-assortment-5_vologodskiy-plombir.png 1x, /img/brands-assortment-5_vologodskiy-plombir@2x.png 2x"
+                            />
+                            <img
+                                    src="/img/brands-assortment-5_vologodskiy-plombir.png"
+                                    alt="Декоративная картинка"
+                                    class="assortment__list-item-bg"
+                            />
+                        </picture>
+                    </li>
+                    <li class="assortment__list-item swiper-slide">
+                        <p class="assortment__list-title">Картонный стаканчик</p>
+                        <p class="assortment__list-descr">3 вида</p>
+                        <picture>
+                            <source
+                                    srcset="/img/brands-assortment-6_vologodskiy-plombir.png 1x, /img/brands-assortment-6_vologodskiy-plombir@2x.png 2x"
+                            />
+                            <img
+                                    src="/img/brands-assortment-6_vologodskiy-plombir.png"
+                                    alt="Декоративная картинка"
+                                    class="assortment__list-item-bg"
+                            />
+                        </picture>
+                    </li>
+                </ul>
+            </div>
+            <div class="assortment__slider-arrows slider-arrows slider-arrows_mobile">
+                <div class="assortment__slider-prev swiper-button-prev"></div>
+                <div class="assortment__slider-next swiper-button-next"></div>
+            </div>
+            <picture>
+                <source
+                        srcset="/img/brand-assortment-decor_vologodskiy-plombir.png 1x, /img/brand-assortment-decor_vologodskiy-plombir@2x.png 2x"
+                />
+                <img
+                        src="/img/brand-assortment-decor_vologodskiy-plombir.png"
+                        alt="Декоративная картинка"
+                        width="714"
+                        class="assortment__decor"
+                />
+            </picture>
+            <picture>
+                <source
+                        srcset="/img/brand-assortment-top-decor_vologodskiy-plombir.png 1x, /img/brand-assortment-top-decor_vologodskiy-plombir@2x.png 2x"
+                />
+                <img
+                        src="/img/brand-assortment-top-decor_vologodskiy-plombir.png"
+                        alt="Декоративная картинка"
+                        width="450"
+                        class="assortment__decor assortment__decor_top"
+                />
+            </picture>
+        </div>
+    </section>
 </main>
 <footer class="footer">
     <div class="footer__container container">
         <div class="footer__img-wrapper">
             <a href="/">
-                <img src="./img/main-logo.svg" alt="Логотип">
+                <img src="/img/main-logo.svg" alt="Логотип">
             </a>
         </div>
         <ul class="footer__nav-list">
@@ -53,29 +311,31 @@
         </ul>
         <div class="footer__info">
             <a href="/" class="footer__info-logo">
-                <img src="./img/main-logo.svg" alt="Логотип">
+                <img src="/img/main-logo.svg" alt="Логотип">
             </a>
             <p class="footer__info-title">2010–<span class="js-footer-year"></span> ООО «ТД АЙСБЕРРИ»</p>
             <ul class="footer__info-socials">
                 <li class="footer__info-socials-item">
                     <a href="#">
-                        <img src="./img/vk-icon.svg" alt="Логотип VK">
+                        <img src="/img/vk-icon.svg" alt="Логотип VK">
                     </a>
                 </li>
                 <li class="footer__info-socials-item">
                     <a href="#">
-                        <img src="./img/tg-icon.svg" alt="Логотип TG">
+                        <img src="/img/tg-icon.svg" alt="Логотип TG">
                     </a>
                 </li>
                 <li class="footer__info-socials-item">
                     <a href="#">
-                        <img src="./img/whatsapp-icon.svg" alt="Логотип Whatsapp">
+                        <img src="/img/whatsapp-icon.svg" alt="Логотип Whatsapp">
                     </a>
                 </li>
             </ul>
         </div>
     </div>
 </footer>
-<script src="js/main.min.js"></script>
+<script src="https://cdn.min.jsdelivr.net/npm/swiper@11/swiper-bundle.min.min.js"></script>
+<script src="../js/main.min.js"></script>
+<script src="../js/pages/brands-general-scripts.min.js"></script>
 </body>
 </html>
