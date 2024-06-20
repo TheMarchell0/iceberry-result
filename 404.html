@@ -10,6 +10,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/main.min.css">
+    <link rel="stylesheet" href="styles/pages/404.min.css">
 </head>
 <body>
 <header class="header js-header">
@@ -35,7 +36,37 @@
     </div>
 </header>
 <main>
-    <h1>404</h1>
+    <section class="hero">
+        <div class="hero__container container">
+            <h1 class="visually-hidden">404 страница</h1>
+            <div class="hero__content">
+                <picture>
+                    <source
+                            srcset="./img/404-main-img.png 1x, ./img/404-main-img@2x.png 2x"
+                    />
+                    <img
+                            src="./img/404-main-img.png"
+                            alt="Декоративная картинка"
+                            width="534"
+                            class="hero__img"
+                    />
+                </picture>
+                <p class="hero__title">К сожалению, по вашему запросу ничего не найдено</p>
+                <button class="hero__button button"><a href="/">Главная страница</a></button>
+            </div>
+            <picture>
+                <source
+                        srcset="./img/404-decor.png 1x, ./img/404-decor@2x.png 2x"
+                />
+                <img
+                        src="./img/404-decor.png"
+                        alt="Декоративная картинка"
+                        width="719"
+                        class="hero__decor"
+                />
+            </picture>
+        </div>
+    </section>
 </main>
 <footer class="footer">
     <div class="footer__container container">
