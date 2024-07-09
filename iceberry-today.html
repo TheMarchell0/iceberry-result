@@ -14,8 +14,8 @@
 </head>
 <body>
 <header class="header js-header">
-    <div class="container header__container">
-        <div class="header__img-wrapper">
+    <div class="container header__container js-header-container">
+        <div class="header__img-wrapper menu-item js-menu-item">
             <a href="/">
                 <img src="/img/main-logo.svg" alt="Логотип">
             </a>
@@ -25,12 +25,12 @@
         </div>
         <nav class="header__nav">
             <ul class="header__nav-list js-mobile-menu">
-                <li class="header__nav-list-item"><a href="/">Главная</a></li>
-                <li class="header__nav-list-item"><a href="/iceberry-today.html">Айсберри сегодня</a></li>
-                <li class="header__nav-list-item"><a href="/quality.html">Наше качество</a></li>
-                <li class="header__nav-list-item"><a href="/brands.html">Бренды</a></li>
-                <li class="header__nav-list-item"><a href="/career.html">Карьера</a></li>
-                <li class="header__nav-list-item"><a href="/contacts.html">Контакты</a></li>
+                <li class="header__nav-list-item menu-item header-menu-item js-menu-item"><a href="/">Главная</a></li>
+                <li class="header__nav-list-item menu-item header-menu-item js-menu-item"><a href="/iceberry-today.html">Айсберри сегодня</a></li>
+                <li class="header__nav-list-item menu-item header-menu-item js-menu-item"><a href="/quality.html">Наше качество</a></li>
+                <li class="header__nav-list-item menu-item header-menu-item js-menu-item"><a href="/brands.html">Бренды</a></li>
+                <li class="header__nav-list-item menu-item header-menu-item js-menu-item"><a href="/career.html">Карьера</a></li>
+                <li class="header__nav-list-item menu-item header-menu-item js-menu-item"><a href="/contacts.html">Контакты</a></li>
             </ul>
         </nav>
     </div>
@@ -46,7 +46,7 @@
                     <img
                             src="./img/iceberry-today-hero-img.png"
                             alt="Декоративная картинка"
-                            width="686"
+                            width="579"
                             class="hero__img hero__img_desktop"
                     />
                 </picture>
@@ -160,8 +160,20 @@
                 <img
                         src="./img/iceberry-today-icon-info-decor.png"
                         alt="Декоративная картинка"
-                        width="475"
-                        class="icon-info__decor"
+                        width="404"
+                        class="icon-info__decor icon-info__decor_desktop"
+                />
+            </picture>
+
+            <picture>
+                <source
+                        srcset="./img/iceberry-today-icon-info-decor_mobile.png 1x, ./img/iceberry-today-icon-info-decor_mobile@2x.png 2x"
+                />
+                <img
+                        src="./img/iceberry-today-icon-info-decor_mobile.png"
+                        alt="Декоративная картинка"
+                        width="280"
+                        class="icon-info__decor icon-info__decor_mobile"
                 />
             </picture>
             <ul class="icon-info__list">
@@ -252,7 +264,7 @@
                         <img
                                 src="./img/iceberry-today-info-img-3-1.png"
                                 alt="Декоративная картинка"
-                                width="440"
+                                width="568"
                                 class="info__list-img info__list-img_3-1"
                         />
                     </picture>
@@ -277,12 +289,17 @@
                             width="233"
                             class="info__list-img info__list-img_4-3"
                     />
-                    <img
-                            src="./img/iceberry-today-info-img-4-4.svg"
-                            alt="Декоративная картинка"
-                            width="162"
-                            class="info__list-img info__list-img_4-4"
-                    />
+                    <picture>
+                        <source
+                                srcset="./img/iceberry-today-info-img-4-4.png 1x, ./img/iceberry-today-info-img-4-4@2x.png 2x"
+                        />
+                        <img
+                                src="./img/iceberry-today-info-img-4-4.png"
+                                alt="Декоративная картинка"
+                                width="162"
+                                class="info__list-img info__list-img_4-4"
+                        />
+                    </picture>
                 </li>
             </ul>
         </div>
@@ -290,17 +307,17 @@
 </main>
 <footer class="footer">
     <div class="footer__container container">
-        <div class="footer__img-wrapper">
+        <div class="footer__img-wrapper menu-item js-menu-item">
             <a href="/">
                 <img src="/img/main-logo.svg" alt="Логотип">
             </a>
         </div>
         <ul class="footer__nav-list">
-            <li class="footer__nav-list-item"><a href="/iceberry-today.html">Айсберри сегодня</a></li>
-            <li class="footer__nav-list-item"><a href="/quality.html">Качество</a></li>
-            <li class="footer__nav-list-item"><a href="/brands.html">Бренды</a></li>
-            <li class="footer__nav-list-item"><a href="/career.html">Карьера</a></li>
-            <li class="footer__nav-list-item"><a href="/contacts.html">Контакты</a></li>
+            <li class="footer__nav-list-item menu-item js-menu-item"><a href="/iceberry-today.html">Айсберри сегодня</a></li>
+            <li class="footer__nav-list-item menu-item js-menu-item"><a href="/quality.html">Качество</a></li>
+            <li class="footer__nav-list-item menu-item js-menu-item"><a href="/brands.html">Бренды</a></li>
+            <li class="footer__nav-list-item menu-item js-menu-item"><a href="/career.html">Карьера</a></li>
+            <li class="footer__nav-list-item menu-item js-menu-item"><a href="/contacts.html">Контакты</a></li>
         </ul>
         <div class="footer__info">
             <a href="/" class="footer__info-logo">
@@ -309,17 +326,17 @@
             <p class="footer__info-title">2010–<span class="js-footer-year"></span> ООО «ТД АЙСБЕРРИ»</p>
             <ul class="footer__info-socials">
                 <li class="footer__info-socials-item">
-                    <a href="#">
+                    <a href="https://test.ru">
                         <img src="/img/vk-icon.svg" alt="Логотип VK">
                     </a>
                 </li>
                 <li class="footer__info-socials-item">
-                    <a href="#">
+                    <a href="https://test.ru">
                         <img src="/img/tg-icon.svg" alt="Логотип TG">
                     </a>
                 </li>
                 <li class="footer__info-socials-item">
-                    <a href="#">
+                    <a href="https://test.ru">
                         <img src="/img/whatsapp-icon.svg" alt="Логотип Whatsapp">
                     </a>
                 </li>

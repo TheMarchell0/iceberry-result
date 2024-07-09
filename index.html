@@ -10,13 +10,12 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/main.min.css">
-    <link rel="stylesheet" href="styles/swiper-bundle.css">
     <link rel="stylesheet" href="styles/pages/index.min.css">
 </head>
 <body>
 <header class="header js-header">
-    <div class="container header__container">
-        <div class="header__img-wrapper">
+    <div class="container header__container js-header-container">
+        <div class="header__img-wrapper menu-item js-menu-item">
             <a href="/">
                 <img src="/img/main-logo.svg" alt="Логотип">
             </a>
@@ -26,12 +25,12 @@
         </div>
         <nav class="header__nav">
             <ul class="header__nav-list js-mobile-menu">
-                <li class="header__nav-list-item"><a href="/">Главная</a></li>
-                <li class="header__nav-list-item"><a href="/iceberry-today.html">Айсберри сегодня</a></li>
-                <li class="header__nav-list-item"><a href="/quality.html">Наше качество</a></li>
-                <li class="header__nav-list-item"><a href="/brands.html">Бренды</a></li>
-                <li class="header__nav-list-item"><a href="/career.html">Карьера</a></li>
-                <li class="header__nav-list-item"><a href="/contacts.html">Контакты</a></li>
+                <li class="header__nav-list-item menu-item header-menu-item js-menu-item"><a href="/">Главная</a></li>
+                <li class="header__nav-list-item menu-item header-menu-item js-menu-item"><a href="/iceberry-today.html">Айсберри сегодня</a></li>
+                <li class="header__nav-list-item menu-item header-menu-item js-menu-item"><a href="/quality.html">Наше качество</a></li>
+                <li class="header__nav-list-item menu-item header-menu-item js-menu-item"><a href="/brands.html">Бренды</a></li>
+                <li class="header__nav-list-item menu-item header-menu-item js-menu-item"><a href="/career.html">Карьера</a></li>
+                <li class="header__nav-list-item menu-item header-menu-item js-menu-item"><a href="/contacts.html">Контакты</a></li>
             </ul>
         </nav>
     </div>
@@ -134,8 +133,7 @@
                         стать лучше и&nbsp;производить еще более качественный и&nbsp;вкусный продукт.</p>
                     <p class="quality__text quality__text_bold">Вы можете оставить отзыв о&nbsp;качестве нашей
                         продукции.</p>
-                    <button class="quality__button button"><a href="/contacts.html" target="_blank">Оставить отзыв</a>
-                    </button>
+                    <a class="quality__button button" href="/contacts.html" target="_blank">Оставить отзыв</a>
                 </div>
                 <div class="quality__content-item">
                     <p class="quality__subtitle">1 944 000</p>
@@ -219,20 +217,6 @@
                             />
                         </picture>
                         <p class="awards__list-text">Настоящий вологодский продукт</p>
-                    </li>
-                    <li class="awards__list-item swiper-slide">
-                        <picture>
-                            <source
-                                    srcset="./img/awards-img-5.png 1x, ./img/awards-img-5@2x.png 2x"
-                            />
-                            <img
-                                    src="./img/awards-img-5.png"
-                                    alt="Декоративная картинка"
-                                    width="100"
-                                    class="awards__list-img"
-                            />
-                        </picture>
-                        <p class="awards__list-text">ЭКО продукт</p>
                     </li>
                     <li class="awards__list-item swiper-slide">
                         <picture>
@@ -348,17 +332,17 @@
 </main>
 <footer class="footer">
     <div class="footer__container container">
-        <div class="footer__img-wrapper">
+        <div class="footer__img-wrapper menu-item js-menu-item">
             <a href="/">
                 <img src="/img/main-logo.svg" alt="Логотип">
             </a>
         </div>
         <ul class="footer__nav-list">
-            <li class="footer__nav-list-item"><a href="/iceberry-today.html">Айсберри сегодня</a></li>
-            <li class="footer__nav-list-item"><a href="/quality.html">Качество</a></li>
-            <li class="footer__nav-list-item"><a href="/brands.html">Бренды</a></li>
-            <li class="footer__nav-list-item"><a href="/career.html">Карьера</a></li>
-            <li class="footer__nav-list-item"><a href="/contacts.html">Контакты</a></li>
+            <li class="footer__nav-list-item menu-item js-menu-item"><a href="/iceberry-today.html">Айсберри сегодня</a></li>
+            <li class="footer__nav-list-item menu-item js-menu-item"><a href="/quality.html">Качество</a></li>
+            <li class="footer__nav-list-item menu-item js-menu-item"><a href="/brands.html">Бренды</a></li>
+            <li class="footer__nav-list-item menu-item js-menu-item"><a href="/career.html">Карьера</a></li>
+            <li class="footer__nav-list-item menu-item js-menu-item"><a href="/contacts.html">Контакты</a></li>
         </ul>
         <div class="footer__info">
             <a href="/" class="footer__info-logo">
@@ -367,17 +351,17 @@
             <p class="footer__info-title">2010–<span class="js-footer-year"></span> ООО «ТД АЙСБЕРРИ»</p>
             <ul class="footer__info-socials">
                 <li class="footer__info-socials-item">
-                    <a href="#">
+                    <a href="https://test.ru">
                         <img src="/img/vk-icon.svg" alt="Логотип VK">
                     </a>
                 </li>
                 <li class="footer__info-socials-item">
-                    <a href="#">
+                    <a href="https://test.ru">
                         <img src="/img/tg-icon.svg" alt="Логотип TG">
                     </a>
                 </li>
                 <li class="footer__info-socials-item">
-                    <a href="#">
+                    <a href="https://test.ru">
                         <img src="/img/whatsapp-icon.svg" alt="Логотип Whatsapp">
                     </a>
                 </li>
@@ -385,7 +369,7 @@
         </div>
     </div>
 </footer>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/vendor.min.js"></script>
 <script src="js/main.min.js"></script>
 <script src="js/pages/index.min.js"></script>
 </body>
