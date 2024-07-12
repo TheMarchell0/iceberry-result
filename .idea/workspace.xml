@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="63ea719a-4ee7-4ad8-a9d1-8a19dfbfaa6d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dist.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brands.html" beforeDir="false" afterPath="$PROJECT_DIR$/brands.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brands/filevskoe.html" beforeDir="false" afterPath="$PROJECT_DIR$/brands/filevskoe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brands/jemchujina-rossii.html" beforeDir="false" afterPath="$PROJECT_DIR$/brands/jemchujina-rossii.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brands/ot-deda-moroza.html" beforeDir="false" afterPath="$PROJECT_DIR$/brands/ot-deda-moroza.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brands/vkuslandia.html" beforeDir="false" afterPath="$PROJECT_DIR$/brands/vkuslandia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brands/vologodskiy-plombir.html" beforeDir="false" afterPath="$PROJECT_DIR$/brands/vologodskiy-plombir.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/career.html" beforeDir="false" afterPath="$PROJECT_DIR$/career.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iceberry-today.html" beforeDir="false" afterPath="$PROJECT_DIR$/iceberry-today.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/404-decor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/404-decor@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/404-main-img.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/404-main-img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/404-main-img@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/404-main-img@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/awards-img-1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/awards-img-1@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/awards-img-2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/awards-img-2@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/awards-img-3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/awards-img-3@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/awards-img-4.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/awards-img-4@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/awards-img-5.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/awards-img-5@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/awards-img-6.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/awards-img-6@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-assortment-1_jemchujina-rossii.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/brands-assortment-1_jemchujina-rossii.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-assortment-1_jemchujina-rossii@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/brands-assortment-1_jemchujina-rossii@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-assortment-1_vkuslandia.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/brands-assortment-1_vkuslandia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-assortment-1_vkuslandia@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/brands-assortment-1_vkuslandia@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-assortment-1_vologodskiy-plombir.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/brands-assortment-1_vologodskiy-plombir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-assortment-1_vologodskiy-plombir@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/brands-assortment-1_vologodskiy-plombir@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-assortment-3_filevskoe.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/brands-assortment-3_filevskoe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-assortment-3_filevskoe@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/brands-assortment-3_filevskoe@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-assortment-3_jemchujina-rossii.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/brands-assortment-3_jemchujina-rossii.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-assortment-3_jemchujina-rossii@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/brands-assortment-3_jemchujina-rossii@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-assortment-3_vologodskiy-plombir.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/brands-assortment-3_vologodskiy-plombir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-assortment-3_vologodskiy-plombir@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/brands-assortment-3_vologodskiy-plombir@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-assortment-4_filevskoe.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/brands-assortment-4_filevskoe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-assortment-4_filevskoe@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/brands-assortment-4_filevskoe@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-assortment-4_jemchujina-rossii.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/brands-assortment-4_jemchujina-rossii.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-assortment-4_jemchujina-rossii@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/brands-assortment-4_jemchujina-rossii@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-assortment-4_vologodskiy-plombir.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/brands-assortment-4_vologodskiy-plombir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-assortment-4_vologodskiy-plombir@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/brands-assortment-4_vologodskiy-plombir@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-assortment-5_filevskoe.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/brands-assortment-5_filevskoe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-assortment-5_filevskoe@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/brands-assortment-5_filevskoe@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-assortment-5_jemchujina-rossii.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/brands-assortment-5_jemchujina-rossii.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-assortment-5_jemchujina-rossii@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/brands-assortment-5_jemchujina-rossii@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-assortment-5_vologodskiy-plombir.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/brands-assortment-5_vologodskiy-plombir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-assortment-5_vologodskiy-plombir@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/brands-assortment-5_vologodskiy-plombir@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-assortment-6_jemchujina-rossii.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/brands-assortment-6_jemchujina-rossii.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-assortment-6_jemchujina-rossii@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/brands-assortment-6_jemchujina-rossii@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-assortment-6_vologodskiy-plombir.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/brands-assortment-6_vologodskiy-plombir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-assortment-6_vologodskiy-plombir@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/brands-assortment-6_vologodskiy-plombir@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-assortment-9_filevskoe.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/brands-assortment-9_filevskoe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-assortment-9_filevskoe@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/brands-assortment-9_filevskoe@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-bg-1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-bg-1@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-bg-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/brands-bg-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-bg-2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-bg-2@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/brands-bg-2@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-bg-2@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-bg-3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-bg-3@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-bg-4.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-bg-4@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-bg-5.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-bg-5@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-bg-6.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/brands-bg-6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-bg-6.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-bg-6@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/brands-bg-6@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-bg-6@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-hero-bg-1-mobile.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-hero-bg-1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-hero-bg-2-mobile.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-hero-bg-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-hero-bg-3-mobile.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-hero-bg-3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-hero-bg-4-mobile.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-hero-bg-4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-hero-bg-5-mobile.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-hero-bg-5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-hero-decor.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/brands-hero-decor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-hero-decor@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/brands-hero-decor@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-hero-slider-img-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-hero-slider-img-1@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-hero-slider-img-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-hero-slider-img-2@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-hero-slider-img-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-hero-slider-img-3@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-hero-slider-img-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-hero-slider-img-4@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-hero-slider-img-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/brands-hero-slider-img-5@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/career-hero-slider-img-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/career-hero-slider-img-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/career-hero-slider-img-3@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/career-hero-slider-img-3@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/career-vacancies-decor.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/career-vacancies-decor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/career-vacancies-decor@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/career-vacancies-decor@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/contacts-hero-img.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/contacts-hero-img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/contacts-hero-img@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/contacts-hero-img@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/contacts-info-decor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/contacts-info-decor@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/contacts-tabs-decor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/contacts-tabs-decor@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/filevskoe-main-img.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/filevskoe-main-img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/filevskoe-main-img@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/filevskoe-main-img@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/hero-img.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/hero-img@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iceberry-today-factory-img-1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iceberry-today-factory-img-1@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iceberry-today-factory-img-2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iceberry-today-factory-img-2@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iceberry-today-hero-img-mobile.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/iceberry-today-hero-img-mobile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iceberry-today-hero-img-mobile.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iceberry-today-hero-img-mobile@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/iceberry-today-hero-img-mobile@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iceberry-today-hero-img-mobile@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iceberry-today-hero-img.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/iceberry-today-hero-img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iceberry-today-hero-img.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iceberry-today-hero-img@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/iceberry-today-hero-img@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iceberry-today-hero-img@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iceberry-today-history-bg.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iceberry-today-history-bg@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iceberry-today-history-img-1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iceberry-today-history-img-1@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iceberry-today-history-img-2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iceberry-today-history-img-2@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iceberry-today-icon-info-decor.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/iceberry-today-icon-info-decor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iceberry-today-icon-info-decor.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iceberry-today-icon-info-decor@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/iceberry-today-icon-info-decor@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iceberry-today-icon-info-decor@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iceberry-today-info-img-1-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/iceberry-today-info-img-1-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iceberry-today-info-img-1-2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iceberry-today-info-img-1-2@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/iceberry-today-info-img-1-2@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iceberry-today-info-img-1-2@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iceberry-today-info-img-2-1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iceberry-today-info-img-2-1@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iceberry-today-info-img-3-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/iceberry-today-info-img-3-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iceberry-today-info-img-3-1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iceberry-today-info-img-3-1@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/iceberry-today-info-img-3-1@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iceberry-today-info-img-3-1@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/iceberry-today-info-img-4-4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/quality-awards-decor.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/quality-awards-decor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/quality-awards-decor@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/quality-awards-decor@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/quality-bg.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/quality-bg@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/quality-decor.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/quality-decor@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/quality-mobile-bg.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/quality-mobile-bg@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/today-img-1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/today-img-1@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/today-img-2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/today-img-2@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/today-img-3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/today-img-3@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/today-img-4.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/today-img-4@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/vkuslandia-main-img.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/vkuslandia-main-img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/vkuslandia-main-img@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/vkuslandia-main-img@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/vologodskiy-plombir-main-img.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/vologodskiy-plombir-main-img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/vologodskiy-plombir-main-img@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/vologodskiy-plombir-main-img@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/pages/brands-general-scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/brands-general-scripts.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/pages/brands.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/brands.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/pages/career.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/career.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/pages/contacts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/contacts.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/pages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/pages/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/pages/index.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/index.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/pages/quality.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/quality.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quality.html" beforeDir="false" afterPath="$PROJECT_DIR$/quality.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/brands-general-styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/brands-general-styles.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/maps/main.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/maps/pages/iceberry-today.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/maps/pages/iceberry-today/factory.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/maps/pages/iceberry-today/hero.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/maps/pages/iceberry-today/history.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/maps/pages/iceberry-today/icon-info.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/maps/pages/iceberry-today/info.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/maps/pages/index.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/maps/pages/index/awards.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/maps/pages/index/brands.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/maps/pages/index/buy.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/maps/pages/index/hero.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/maps/pages/index/quality.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/maps/pages/index/today.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/404.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/pages/404.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/brands-single.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/pages/brands-single.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/brands.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/pages/brands.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/career.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/pages/career.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/contacts.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/pages/contacts.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/iceberry-today.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/iceberry-today.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/pages/iceberry-today.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/iceberry-today/factory.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/iceberry-today/factory.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/iceberry-today/hero.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/iceberry-today/hero.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/iceberry-today/history.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/iceberry-today/history.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/iceberry-today/icon-info.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/iceberry-today/icon-info.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/iceberry-today/info.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/iceberry-today/info.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/index.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/pages/index.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/index/awards.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/index/awards.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/index/brands.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/index/brands.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/index/buy.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/index/buy.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/index/hero.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/index/hero.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/index/quality.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/index/quality.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/index/today.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/index/today.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/quality.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/pages/quality.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/swiper-bundle.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/swiper-bundle.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2ik2ZSqH8CvwkjmQ5AbVucteWj3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/SashaWork/iceberry-result",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63ea719a-4ee7-4ad8-a9d1-8a19dfbfaa6d" name="Changes" comment="" />
+      <created>1720020309636</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720020309636</updated>
+      <workItem from="1720020310804" duration="341000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

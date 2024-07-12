@@ -18,8 +18,8 @@
 </head>
 <body>
 <header class="header js-header">
-    <div class="container header__container">
-        <div class="header__img-wrapper">
+    <div class="container header__container js-header-container">
+        <div class="header__img-wrapper menu-item js-menu-item">
             <a href="/">
                 <img src="/img/main-logo.svg" alt="Логотип">
             </a>
@@ -29,12 +29,12 @@
         </div>
         <nav class="header__nav">
             <ul class="header__nav-list js-mobile-menu">
-                <li class="header__nav-list-item"><a href="/">Главная</a></li>
-                <li class="header__nav-list-item"><a href="/iceberry-today.html">Айсберри сегодня</a></li>
-                <li class="header__nav-list-item"><a href="/quality.html">Наше качество</a></li>
-                <li class="header__nav-list-item"><a href="/brands.html">Бренды</a></li>
-                <li class="header__nav-list-item"><a href="/career.html">Карьера</a></li>
-                <li class="header__nav-list-item"><a href="/contacts.html">Контакты</a></li>
+                <li class="header__nav-list-item menu-item header-menu-item js-menu-item"><a href="/">Главная</a></li>
+                <li class="header__nav-list-item menu-item header-menu-item js-menu-item"><a href="/iceberry-today.html">Айсберри сегодня</a></li>
+                <li class="header__nav-list-item menu-item header-menu-item js-menu-item"><a href="/quality.html">Наше качество</a></li>
+                <li class="header__nav-list-item menu-item header-menu-item js-menu-item"><a href="/brands.html">Бренды</a></li>
+                <li class="header__nav-list-item menu-item header-menu-item js-menu-item"><a href="/career.html">Карьера</a></li>
+                <li class="header__nav-list-item menu-item header-menu-item js-menu-item"><a href="/contacts.html">Контакты</a></li>
             </ul>
         </nav>
     </div>
@@ -294,37 +294,38 @@
                     </picture>
                 </div>
                 <div class="work__form">
-                    <form class="work__form-content">
+                    <form class="work__form-content js-form">
                         <div class="work__form-item career-form-item form__item">
                             <label for="name" class="work__form-label career-form-label form__label required">ФИО</label>
-                            <input type="text" id="name" class="work__form-input form__input">
+                            <input type="text" id="name" class="work__form-input form__input js-form-input">
                         </div>
                         <div class="work__form-item career-form-item form__item">
                             <label for="city" class="work__form-label career-form-label form__label required">Город</label>
-                            <input type="text" id="city" class="work__form-input form__input">
+                            <input type="text" id="city" class="work__form-input form__input js-form-input">
                         </div>
                         <div class="work__form-item career-form-item form__item">
                             <label for="phone" class="work__form-label career-form-label form__label required">Контактный телефон</label>
-                            <input type="text" id="phone" class="work__form-input form__input">
+                            <input type="text" id="phone" class="work__form-input form__input js-phone-input js-form-input">
                         </div>
                         <div class="work__form-item career-form-item form__item">
                             <label for="position" class="work__form-label career-form-label form__label required">Желаемая
                                 должность</label>
-                            <input type="text" id="position" class="work__form-input form__input">
+                            <input type="text" id="position" class="work__form-input form__input js-form-input">
                         </div>
                         <p class="work__form-notification form__notification">* Поля, обязательные для заполнения.</p>
                         <div class="work__form-item career-form-item career-form-item_file form__item">
                             <p class="work__form-label form__label career-form-label required">Прикрепить резюме</p>
-                            <ul class="work__form-file-list form__files" data-max-files="2">
-                                <li class="work__form-file-list-item form__files-item js-files-wrapper">
-                                    <input type="file" id="file"
-                                           class="work__form-file-list-input form__files-input js-file-input">
-                                    <label for="file" class="work__form-file-text form__files-text js-file-label">Добавить</label>
+                            <ul id="work-form" class="work__form-file-list form__files js-form-files" data-max-files="2">
+                                <li class="form__files-item js-files-list-item">
+                                    <input type="file" id="work-form_file-1"
+                                           class="form__files-input js-files-input js-form-input">
+                                    <label for="work-form_file-1" class="form__files-text js-files-label">Добавить</label>
+                                    <span class="form__files-delete js-files-delete">X</span>
                                 </li>
                             </ul>
                         </div>
                         <div class="work__form-footer form__footer">
-                            <button class="work__form-footer-button button js-form-submit">Отправить анкету</button>
+                            <button class="work__form-footer-button button js-submit-button">Отправить анкету</button>
                             <p class="work__form-footer-text career-form-footer-text form__footer-text">Нажимая на кнопку «Отправить анкету», вы
                                 даете согласие на
                                 обработку персональных данных.</p>
@@ -337,17 +338,17 @@
 </main>
 <footer class="footer">
     <div class="footer__container container">
-        <div class="footer__img-wrapper">
+        <div class="footer__img-wrapper menu-item js-menu-item">
             <a href="/">
                 <img src="/img/main-logo.svg" alt="Логотип">
             </a>
         </div>
         <ul class="footer__nav-list">
-            <li class="footer__nav-list-item"><a href="/iceberry-today.html">Айсберри сегодня</a></li>
-            <li class="footer__nav-list-item"><a href="/quality.html">Качество</a></li>
-            <li class="footer__nav-list-item"><a href="/brands.html">Бренды</a></li>
-            <li class="footer__nav-list-item"><a href="/career.html">Карьера</a></li>
-            <li class="footer__nav-list-item"><a href="/contacts.html">Контакты</a></li>
+            <li class="footer__nav-list-item menu-item js-menu-item"><a href="/iceberry-today.html">Айсберри сегодня</a></li>
+            <li class="footer__nav-list-item menu-item js-menu-item"><a href="/quality.html">Качество</a></li>
+            <li class="footer__nav-list-item menu-item js-menu-item"><a href="/brands.html">Бренды</a></li>
+            <li class="footer__nav-list-item menu-item js-menu-item"><a href="/career.html">Карьера</a></li>
+            <li class="footer__nav-list-item menu-item js-menu-item"><a href="/contacts.html">Контакты</a></li>
         </ul>
         <div class="footer__info">
             <a href="/" class="footer__info-logo">
@@ -356,17 +357,17 @@
             <p class="footer__info-title">2010–<span class="js-footer-year"></span> ООО «ТД АЙСБЕРРИ»</p>
             <ul class="footer__info-socials">
                 <li class="footer__info-socials-item">
-                    <a href="#">
+                    <a href="https://test.ru">
                         <img src="/img/vk-icon.svg" alt="Логотип VK">
                     </a>
                 </li>
                 <li class="footer__info-socials-item">
-                    <a href="#">
+                    <a href="https://test.ru">
                         <img src="/img/tg-icon.svg" alt="Логотип TG">
                     </a>
                 </li>
                 <li class="footer__info-socials-item">
-                    <a href="#">
+                    <a href="https://test.ru">
                         <img src="/img/whatsapp-icon.svg" alt="Логотип Whatsapp">
                     </a>
                 </li>
@@ -427,37 +428,38 @@
                 </picture>
             </div>
             <div class="career-modal__form-wrapper">
-                <form class="career-modal__form-content">
+                <form class="career-modal__form-content js-form">
                     <div class="career-modal__form-item career-form-item form__item">
                         <label for="modal-name" class="career-modal__form-label career-form-label form__label required">ФИО</label>
-                        <input type="text" id="modal-name" class="career-modal__form-input form__input">
+                        <input type="text" id="modal-name" class="career-modal__form-input form__input js-form-input">
                     </div>
                     <div class="career-modal__form-item career-form-item form__item">
                         <label for="modal-city" class="career-modal__form-label career-form-label form__label required">Город</label>
-                        <input type="text" id="modal-city" class="career-modal__form-input form__input">
+                        <input type="text" id="modal-city" class="career-modal__form-input form__input js-form-input">
                     </div>
                     <div class="career-modal__form-item career-form-item form__item">
                         <label for="modal-phone" class="career-modal__form-label career-form-label form__label required">Контактный телефон</label>
-                        <input type="text" id="modal-phone" class="career-modal__form-input form__input">
+                        <input type="text" id="modal-phone" class="career-modal__form-input form__input js-phone-input js-form-input">
                     </div>
                     <div class="career-modal__form-item career-form-item form__item">
                         <label for="modal-position" class="career-modal__form-label career-form-label form__label required">Желаемая
                             должность</label>
-                        <input type="text" id="modal-position" class="career-modal__form-input form__input">
+                        <input type="text" id="modal-position" class="career-modal__form-input form__input js-form-input">
                     </div>
                     <p class="career-modal__form-notification form__notification">* Поля, обязательные для заполнения.</p>
                     <div class="career-modal__form-item career-modal__form-item_file career-form-item_file form__item">
                         <p class="career-modal__form-label career-form-label form__label required">Прикрепить резюме</p>
-                        <ul class="career-modal__form-file-list form__files" data-max-files="2">
-                            <li class="career-modal__form-file-list-item form__files-item js-files-wrapper">
-                                <input type="file" id="modal-file"
-                                       class="career-modal__form-file-list-input form__files-input js-file-input">
-                                <label for="modal-file" class="career-modal__form-file-text form__files-text js-file-label">Добавить</label>
+                        <ul id="work-modal-form" class="career-modal__form-file-list form__files js-form-files" data-max-files="2">
+                            <li class="form__files-item js-files-list-item">
+                                <input type="file" id="work-modal-form_file-1"
+                                       class="form__files-input js-files-input js-form-input">
+                                <label for="work-modal-form_file-1" class="form__files-text js-files-label">Добавить</label>
+                                <span class="form__files-delete js-files-delete">X</span>
                             </li>
                         </ul>
                     </div>
                     <div class="career-modal__form-footer form__footer">
-                        <button class="career-modal__form-footer-button button js-form-submit">Отправить анкету</button>
+                        <button class="career-modal__form-footer-button button js-submit-button">Отправить анкету</button>
                         <p class="career-modal__form-footer-text career-form-footer-text form__footer-text">Нажимая на кнопку «Отправить анкету», вы
                             даете согласие на
                             обработку персональных данных.</p>
