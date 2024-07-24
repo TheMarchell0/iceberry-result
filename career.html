@@ -213,7 +213,7 @@
     <section class="vacancies js-vacancies-parent">
         <div class="vacancies__container container js-vacancies-container">
             <h2 class="vacancies__title section-title">Вакансии в&nbsp;твоем городе</h2>
-            <div class="vacancies__select-wrapper choices-wrapper">
+            <div class="vacancies__select-wrapper choices-wrapper" style="display: none;"> <!--TODO: Убрать инлайновый стиль, когда будет реализовано подтягивание списка из админки. Для создания списка используется библиотека choices.min.js. Функционал данного селекта находится в js/pages/career.min.js-->
                 <select class="vacancies__select js-vacancies-select" data-select-type="big">
                     <option value="Москва">Москва</option>
                     <option value="Город 1">Город 1</option>
@@ -228,32 +228,26 @@
             <div class="vacancies__swiper swiper js-vacancies-slider">
                 <ul class="vacancies__list swiper-wrapper js-vacancies-content">
                     <li class="vacancies__list-item swiper-slide">
-                        <p class="vacancies__list-title">Мерчендайзер</p>
+                        <p class="vacancies__list-title">Водитель-экспедитор</p>
                         <p class="vacancies__list-descr">Условия:</p>
                         <ul class="vacancies__list-conditions">
-                            <li class="vacancies__list-conditions-text">График работы: 5/2,<br/>с 9:00 до 18:00;</li>
-                            <li class="vacancies__list-conditions-text">Заработная плата –
-                                от&nbsp;35&nbsp;000&nbsp;руб;
-                            </li>
-                            <li class="vacancies__list-conditions-text">Оплата проезда, мобильной связи;</li>
-                            <li class="vacancies__list-conditions-text">Посещение офиса<br/>один раз в неделю;</li>
-                            <li class="vacancies__list-conditions-text">Вакантные территории<br/>уточняйте по телефону.
-                            </li>
+                            <li class="vacancies__list-conditions-text">Официальное трудоустройство.</li>
+                            <li class="vacancies__list-conditions-text">Стабильная, 2 раза в месяц, выплата заработной платы.</li>
+                            <li class="vacancies__list-conditions-text">График работы – 5/2 с плавающими выходными, летом возможно 6/1.</li>
+                            <li class="vacancies__list-conditions-text">Работа разъездного характера.</li>
+                            <li class="vacancies__list-conditions-text">Оплачиваемая стажировка.</li>
                         </ul>
                         <button class="vacancies__list-button button js-modal-trigger">Узнать подробнее</button>
                     </li>
                     <li class="vacancies__list-item swiper-slide">
-                        <p class="vacancies__list-title">Водитель-экспедитор</p>
+                        <p class="vacancies__list-title">Торговый представитель</p>
                         <p class="vacancies__list-descr">Условия:</p>
                         <ul class="vacancies__list-conditions">
-                            <li class="vacancies__list-conditions-text">График работы: 5/2,<br/>с 9:00 до 18:00;</li>
-                            <li class="vacancies__list-conditions-text">Заработная плата –
-                                от&nbsp;35&nbsp;000&nbsp;руб;
-                            </li>
-                            <li class="vacancies__list-conditions-text">Оплата проезда, мобильной связи;</li>
-                            <li class="vacancies__list-conditions-text">Посещение офиса<br/>один раз в неделю;</li>
-                            <li class="vacancies__list-conditions-text">Вакантные территории<br/>уточняйте по телефону.
-                            </li>
+                            <li class="vacancies__list-conditions-text">Полностью официальный доход;</li>
+                            <li class="vacancies__list-conditions-text">5/2 с 09-00 до 18-00;</li>
+                            <li class="vacancies__list-conditions-text">Оплата мобильной связи</li>
+                            <li class="vacancies__list-conditions-text">Компенсация топлива;</li>
+                            <li class="vacancies__list-conditions-text">По зп ПОТОЛКА НЕТ, все будет зависеть от Вас.</li>
                         </ul>
                         <button class="vacancies__list-button button js-modal-trigger">Узнать подробнее</button>
                     </li>
@@ -294,38 +288,38 @@
                     </picture>
                 </div>
                 <div class="work__form">
-                    <form class="work__form-content js-form">
+                    <form class="work__form-content js-form form" data-send-to="Карьера">
                         <div class="work__form-item career-form-item form__item">
                             <label for="name" class="work__form-label career-form-label form__label required">ФИО</label>
-                            <input type="text" id="name" class="work__form-input form__input js-form-input">
+                            <input type="text" id="name" name="ФИО" class="work__form-input form__input js-form-input js-form-input_required" maxlength="50">
                         </div>
                         <div class="work__form-item career-form-item form__item">
                             <label for="city" class="work__form-label career-form-label form__label required">Город</label>
-                            <input type="text" id="city" class="work__form-input form__input js-form-input">
+                            <input type="text" id="city" name="Город" class="work__form-input form__input js-form-input js-form-input_required" maxlength="50">
                         </div>
                         <div class="work__form-item career-form-item form__item">
                             <label for="phone" class="work__form-label career-form-label form__label required">Контактный телефон</label>
-                            <input type="text" id="phone" inputmode="numeric" class="work__form-input form__input js-phone-input js-form-input">
+                            <input type="text" id="phone" inputmode="numeric" name="Контактный телефон" class="work__form-input form__input js-phone-input js-form-input js-form-input_required">
                         </div>
                         <div class="work__form-item career-form-item form__item">
                             <label for="position" class="work__form-label career-form-label form__label required">Желаемая
                                 должность</label>
-                            <input type="text" id="position" class="work__form-input form__input js-form-input">
+                            <input type="text" id="position" name="Желаемая должность" class="work__form-input form__input js-form-input js-form-input_required" maxlength="50">
                         </div>
                         <p class="work__form-notification form__notification">* Поля, обязательные для заполнения.</p>
                         <div class="work__form-item career-form-item career-form-item_file form__item">
-                            <p class="work__form-label form__label career-form-label required">Прикрепить резюме</p>
+                            <p class="work__form-label form__label career-form-label required">Прикрепить резюме (до 5&nbsp;МБ)</p>
                             <ul id="work-form" class="work__form-file-list form__files js-form-files" data-max-files="2">
                                 <li class="form__files-item js-files-list-item">
                                     <input type="file" id="work-form_file-1"
-                                           class="form__files-input js-files-input js-form-input">
+                                           class="form__files-input js-files-input js-form-input js-form-input_required" name="Прикрепленный файл">
                                     <label for="work-form_file-1" class="form__files-text js-files-label">Добавить</label>
                                     <span class="form__files-delete js-files-delete">X</span>
                                 </li>
                             </ul>
                         </div>
                         <div class="work__form-footer form__footer">
-                            <button class="work__form-footer-button button js-submit-button js-modal-trigger">Отправить анкету</button>
+                            <button class="work__form-footer-button button js-submit-button">Отправить анкету</button>
                             <p class="work__form-footer-text career-form-footer-text form__footer-text">Нажимая на кнопку «Отправить анкету», вы
                                 даете согласие на
                                 обработку персональных данных.</p>
@@ -378,34 +372,32 @@
 <div class="career-modal modal js-modal">
     <div class="career-modal__wrapper modal__wrapper js-modal-wrapper disable">
         <img class="career-modal__close modal__close js-close-modal" src="/img/close-icon.svg" alt="Закрыть">
-        <p class="career-modal__title">Мерчендайзер</p>
+        <p class="career-modal__title">Название вакансии</p>
         <ul class="career-modal__list">
             <li class="career-modal__list-item">
                 <p class="career-modal__list-title">Условия:</p>
                 <ul class="career-modal__list-conditions">
-                    <li class="career-modal__list-conditions-text">График работы: 5/2,<br/>с 9:00 до 18:00;</li>
-                    <li class="career-modal__list-conditions-text">Заработная плата –<br/>от 35 000 руб;</li>
-                    <li class="career-modal__list-conditions-text">Оплата проезда, мобильной связи;</li>
-                    <li class="career-modal__list-conditions-text">Посещение офиса<br/>один раз в неделю;</li>
-                    <li class="career-modal__list-conditions-text">Вакантные территории уточняйте по телефону.</li>
+                    <li class="career-modal__list-conditions-text">Пункт</li>
+                    <li class="career-modal__list-conditions-text">Пункт</li>
+                    <li class="career-modal__list-conditions-text">Пункт</li>
+                    <li class="career-modal__list-conditions-text">Пункт</li>
+                    <li class="career-modal__list-conditions-text">Пункт</li>
                 </ul>
             </li>
             <li class="career-modal__list-item">
                 <p class="career-modal__list-title">Обязанности:</p>
                 <ul class="career-modal__list-conditions">
-                    <li class="career-modal__list-conditions-text">Выкладка продукции в&nbsp;сетевых магазинах;</li>
-                    <li class="career-modal__list-conditions-text">Проверка сроков годности;</li>
-                    <li class="career-modal__list-conditions-text">Фотоотчетность;</li>
-                    <li class="career-modal__list-conditions-text">Сбор заказов.</li>
+                    <li class="career-modal__list-conditions-text">Пункт</li>
+                    <li class="career-modal__list-conditions-text">Пункт</li>
+                    <li class="career-modal__list-conditions-text">Пункт</li>
+                    <li class="career-modal__list-conditions-text">Пункт</li>
                 </ul>
             </li>
             <li class="career-modal__list-item">
                 <p class="career-modal__list-title">Требования:</p>
                 <ul class="career-modal__list-conditions">
-                    <li class="career-modal__list-conditions-text">Наличие медицинской книжки (желательно);</li>
-                    <li class="career-modal__list-conditions-text">Желателен опыт работы мерчендайзером или торговым
-                        представителем.
-                    </li>
+                    <li class="career-modal__list-conditions-text">Пункт</li>
+                    <li class="career-modal__list-conditions-text">Пункт</li>
                 </ul>
             </li>
         </ul>
@@ -428,38 +420,38 @@
                 </picture>
             </div>
             <div class="career-modal__form-wrapper">
-                <form class="career-modal__form-content js-form">
+                <form class="career-modal__form-content js-form form" data-send-to="Карьера">
                     <div class="career-modal__form-item career-form-item form__item">
                         <label for="modal-name" class="career-modal__form-label career-form-label form__label required">ФИО</label>
-                        <input type="text" id="modal-name" class="career-modal__form-input form__input js-form-input">
+                        <input type="text" id="modal-name" name="ФИО" class="career-modal__form-input form__input js-form-input js-form-input_required" maxlength="50">
                     </div>
                     <div class="career-modal__form-item career-form-item form__item">
                         <label for="modal-city" class="career-modal__form-label career-form-label form__label required">Город</label>
-                        <input type="text" id="modal-city" class="career-modal__form-input form__input js-form-input">
+                        <input type="text" id="modal-city" name="Город" class="career-modal__form-input form__input js-form-input js-form-input_required" maxlength="50">
                     </div>
                     <div class="career-modal__form-item career-form-item form__item">
                         <label for="modal-phone" class="career-modal__form-label career-form-label form__label required">Контактный телефон</label>
-                        <input type="text" id="modal-phone" inputmode="numeric" class="career-modal__form-input form__input js-phone-input js-form-input">
+                        <input type="text" id="modal-phone" name="Контактный телефон" inputmode="numeric" class="career-modal__form-input form__input js-phone-input js-form-input js-form-input_required">
                     </div>
                     <div class="career-modal__form-item career-form-item form__item">
                         <label for="modal-position" class="career-modal__form-label career-form-label form__label required">Желаемая
                             должность</label>
-                        <input type="text" id="modal-position" class="career-modal__form-input form__input js-form-input">
+                        <input type="text" id="modal-position" name="Желаемая должность" class="career-modal__form-input form__input js-form-input js-form-input_required" maxlength="50">
                     </div>
                     <p class="career-modal__form-notification form__notification">* Поля, обязательные для заполнения.</p>
                     <div class="career-modal__form-item career-modal__form-item_file career-form-item_file form__item">
-                        <p class="career-modal__form-label career-form-label form__label required">Прикрепить резюме</p>
+                        <p class="career-modal__form-label career-form-label form__label required">Прикрепить резюме (до 5&nbsp;МБ)</p>
                         <ul id="work-modal-form" class="career-modal__form-file-list form__files js-form-files" data-max-files="2">
                             <li class="form__files-item js-files-list-item">
                                 <input type="file" id="work-modal-form_file-1"
-                                       class="form__files-input js-files-input js-form-input">
+                                       class="form__files-input js-files-input js-form-input js-form-input_required" name="Прикрепленный файл">
                                 <label for="work-modal-form_file-1" class="form__files-text js-files-label">Добавить</label>
                                 <span class="form__files-delete js-files-delete">X</span>
                             </li>
                         </ul>
                     </div>
                     <div class="career-modal__form-footer form__footer">
-                        <button class="career-modal__form-footer-button button js-submit-button js-modal-trigger">Отправить анкету</button>
+                        <button class="career-modal__form-footer-button button js-submit-button">Отправить анкету</button>
                         <p class="career-modal__form-footer-text career-form-footer-text form__footer-text">Нажимая на кнопку «Отправить анкету», вы
                             даете согласие на
                             обработку персональных данных.</p>
